@@ -1,0 +1,87 @@
+
+.contato{
+    width:90%;
+    margin:60px auto;
+}
+.contato h2{
+    text-align:center;
+    color:#1e3a8a;
+    margin-bottom:30px;
+}
+.contato-container{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
+.informacoes{
+    width:40%;
+}
+.informacoes h3{
+    margin-bottom:15px;
+    color:#1e3a8a;
+}
+.informacoes p{
+    margin-bottom:15px;
+}
+form{
+    width:60%;
+    display:flex;
+    flex-direction:column;
+}
+form input, /*macete que vai me poupar tempo*/
+form textarea{
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+
+
+
+/*ta aqui o textarea*/
+form textarea{
+    height:100px; 
+}
+form button{
+    background:#1e3a8a;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+form button:hover{
+    background:#2749aa;
+}
+
+
+
+/*mesmo codigo que fiz no index e só copieie ele e fui colando*/
+header{
+    background:#1e3a8a;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffd54f;
+}
+*{
+    margin:0;
+}

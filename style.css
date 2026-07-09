@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:#f5f5f5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* meu cabeçalho */
+header{
+    background:#1e3a8a;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+header h1{
+    font-size:32px;
+}
+nav{
+    display:flex;
+    gap:25px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+nav a:hover{
+    color:#ffd54f;
+}
+/* meu banner */
+.banner{
+    text-align:center;
+    padding:60px;
+}
+.banner h2{
+    font-size:45px;
+    margin-bottom:15px;
+}
+.banner p{
+    color:#555;
+    margin-bottom:25px;
+}
+.banner select{
+    width:250px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.banner button{
+    padding:10px 20px;
+    margin-left:10px;
+    background:#1e3a8a;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.banner button:hover{
+    background:#2749aa;
+}
+
+/* os cursos */
+.cursos{
+    width:90%;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+.card:hover{
+    transform:translateY(-8px); /* vou analisar */
+
+}
+.card img{
+     width:90px;
+    height:90px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
+.card h3{
+    color:#1e3a8a;
+    margin-bottom:15px;
+}
+.card p{
+    color:#666;
+    line-height:22px;
+
+}
+/* o meu rodape */
+
+footer{
+    background:#1e3a8a;
+    color:white;
+    margin-top:70px;
+    padding:40px 60px;
+}
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin-bottom:10px;
+}
+.footer-links a:hover{
+    color:#ffd54f;
+}
+footer hr{
+    margin:30px 0;
+    border:none;
+    border-top:1px solid rgba(255,255,255,.3);
+}
+
+.copyright{
+    text-align:center;
+    font-size:14px;
+}
+
+
+
+
+.cursos p{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#1e3a8a;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    transition:.3s;
+}
+
+.cursos p:hover{
+    background:#2749aa;
+}

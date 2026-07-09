@@ -1,0 +1,70 @@
+*{
+    margin:0;
+}
+body{
+    background:#f5f5f5;
+}
+/*HEADEeer*/
+header{
+    background:#1e3a8a;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+nav{
+    display:flex;
+    gap:20px;
+}
+nav a{
+    color:white;
+    text-decoration:none
+}
+
+nav a:hover{
+    color:#ffd54f;
+}
+.cursos{
+    width:100%;  /*tamanho dos cards*/
+    margin:50px auto;
+}
+.cursos h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#1e3a8a;
+}
+.lista-cursos{
+    display:grid;
+    grid-template-columns:repeat(2,1fr); 
+    gap:20px;
+}
+.card{
+    background:white;
+    border:1px solid #dcdcdc;
+    border-radius:8px;
+    padding:20px;
+    text-align:center;
+}
+.card img{
+    width: 200px;
+}
+
+.card:hover{
+    transform:translateY(-19px);
+}
+.card h3{
+    color:#1e3a8a;
+    margin-bottom:10px;
+}
+.card p{
+    margin-bottom:20px;
+}
+.card button{
+    background:#1e3a8a;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
